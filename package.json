@@ -16,6 +16,6 @@
         "build" : "pkg ."
     },
     "dependencies": {
-        "png" : "^4.3.4"
+        "pkg" : "^4.3.4"
     }
 }
