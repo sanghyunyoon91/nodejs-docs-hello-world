@@ -8,7 +8,15 @@
     "engines": {
         "node": ">=6.9.1"
     },
+    "bin" : {
+        "app : " ./index.js"
+    },
+
     "scripts": {
         "start": "node index.js"
+        "build" : "pkg ."
+    },
+    "dependencies": {
+        "png" : "^4.3.4"
     }
 }
